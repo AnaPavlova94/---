@@ -1,0 +1,45 @@
+header {
+  width: 95%;
+  height: 15%;
+  display: flex;
+  justify-content: flex-end;
+  padding: 2em;
+}
+
+header > input {
+  background-color: hwb(263 21% 11%);
+  color: white;
+  padding: 0.5em;
+  border-radius: 5%;
+  outline: none;
+  border: none;
+}
+
+.movies {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  justify-content: center;
+}
+
+
+.movie_block{
+  width: 300px;
+  
+  color: white;
+  background-color: hwb(263 21% 11%);
+  display: flex;
+  flex-direction: column;
+  padding: 1em;
+  margin: 0.5em;
+
+}
+.movie_block > img {
+  max-width: 95%;
+  max-height: 95%;
+}
+
+.movie_block > h3 {
+  width: 100%;
+  margin: 10px 0;
+}
